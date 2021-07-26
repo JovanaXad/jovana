@@ -1,0 +1,15 @@
+export { Layout } from "./layout";
+export { Header } from "./header";
+export { About } from "./about";
+export { Course } from "./course";
+export { Exams } from "./exams";
+export { ExamsNavPage } from "./exams/exams-nav-page";
+export { Pricelist } from "./pricelist";
+export { Events } from "./events";
+export { Blog, BlogPage } from "./blog";
+export { Contact } from "./contact";
+export { Footer } from "./footer";
+export { InitialTest } from "./initial-test";
+export { Toefl } from "./exams/toefl";
+export { Sat } from "./exams/sat";
+export { Ielts } from "./exams/ielts";
