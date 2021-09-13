@@ -11,6 +11,8 @@ function isOdd(num: number) {
 const ExamsTableSection: React.FC<ExamsTableSectionProps> = ({
   content: {
     tableTitle,
+    tableTitle2,
+    tableTitle3,
     table: { theader, rows },
     styles: { headerStyles, rowStyles },
   },
@@ -22,6 +24,18 @@ const ExamsTableSection: React.FC<ExamsTableSectionProps> = ({
       {tableTitle && (
         <Text as="p" className="exams__table-title">
           {tableTitle}
+        </Text>
+      )}
+
+      {tableTitle2 && (
+        <Text as="p" className="exams__table-title">
+          {tableTitle2}
+        </Text>
+      )}
+
+      {tableTitle3 && (
+        <Text as="p" className="exams__table-title">
+          {tableTitle3}
         </Text>
       )}
       <ExamsTable.TheaderContainer>

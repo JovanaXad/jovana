@@ -13,3 +13,6 @@ export { InitialTest } from "./initial-test";
 export { Toefl } from "./exams/toefl";
 export { Sat } from "./exams/sat";
 export { Ielts } from "./exams/ielts";
+export { Gre } from "./exams/gre";
+export { Gmat } from "./exams/gmat";
+export { Bocconi } from "./exams/bocconi";

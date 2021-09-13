@@ -36,15 +36,17 @@ const ExamsHeadingSection: React.FC<ExamsHeadingSectionProps> = ({
             {text}
           </Text>
           <Wrapper as="div">
-            <Image
-              src={image}
-              alt="exams-heading-section"
-              objectFit="cover"
-              placeholder="blur"
-              width="400"
-              height="400"
-              className="exams-heading-section__text-img"
-            />
+            {image && (
+              <Image
+                src={image}
+                alt="exams-heading-section"
+                objectFit="cover"
+                placeholder="blur"
+                width="400"
+                height="400"
+                className="exams-heading-section__text-img"
+              />
+            )}
           </Wrapper>
         </ContentContainer>
       </SubContainer>

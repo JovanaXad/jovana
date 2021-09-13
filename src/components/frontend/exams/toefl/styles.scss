@@ -134,6 +134,15 @@
     font-weight: 400;
     text-align: justify;
 
+    ul {
+      padding: 3rem 0;
+      list-style-type: none;
+    }
+
+    li {
+      padding: 0.2rem 0;
+    }
+
     a {
       color: $main-color;
       text-decoration: none;

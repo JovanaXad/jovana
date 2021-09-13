@@ -26,3 +26,4 @@ export { ExamsTableSection } from "./exams-table-section";
 export { ExamsTable } from "./exams-table";
 export { ExamsTableAndImageSection } from "./exams-table-and-image-section";
 export { ExamsQuestions } from "./exams-questions";
+export { ExamsTextSection } from "./exams-text-section";
