@@ -81,7 +81,7 @@ export const tableData = [
     },
     rows: {
       first: "Mini grupa (dva polaznika)",
-      second: "75 minuta x 8 časova mesečno – 7500 rsd",
+      second: "75 minuta x 8 časova mesečno – 8000 rsd",
       third: "individualni časovi",
       for: "60 minuta – 1700 rsd",
       color: "white",
